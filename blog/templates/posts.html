@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block page_name%}文章{% endblock %}
+
+{% block content %}
+<h2 style="text-align: center;">这是一个睡前小故事</h2>
+
+<p style="text-align: center;">{% for atrical in atricals %}
+
+{{ atrical }} <br/>
+
+{% endfor %}</p>>
+
+{% endblock %}
+  
+
+
